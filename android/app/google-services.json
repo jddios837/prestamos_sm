@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "437597786801",
+    "firebase_url": "https://prestamos-sm.firebaseio.com",
+    "project_id": "prestamos-sm",
+    "storage_bucket": "prestamos-sm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437597786801:android:dd86266ab16a520ded8890",
+        "android_client_info": {
+          "package_name": "com.websoftmerida.prestamos_sm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437597786801-jnmktl4nav2j90uli8rllakahb896hnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2N_A1PuGu4DKVjfW1WjsPEu10QK7CgTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437597786801-jnmktl4nav2j90uli8rllakahb896hnc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
