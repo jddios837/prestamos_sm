@@ -18,6 +18,9 @@ environment:
 
 dependencies:
   cloud_firestore:
+  firebase_core:
+  provider:
+  get_it:
   flutter:
     sdk: flutter
 
@@ -25,6 +28,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   shared_preferences: ^0.5.6+1
+  rxdart: ^0.23.1
+  http:
+  image_picker: ^0.6.3+1
+  mime_type:
 
 dev_dependencies:
   flutter_test:

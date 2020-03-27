@@ -4,6 +4,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:prestamos_sm/src/pages/client_list_page.dart';
 import 'package:prestamos_sm/src/pages/client_form_page.dart';
 import 'package:prestamos_sm/src/pages/home_page.dart';
+import 'package:prestamos_sm/src/pages/login_page.dart';
+import 'package:prestamos_sm/src/pages/register_page.dart';
 import 'package:prestamos_sm/src/pages/settings_page.dart';
 import 'package:prestamos_sm/src/share_prefs/preferencias_usuario.dart';
  
@@ -25,13 +27,18 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Prestamos SM',
-      initialRoute: prefs.ultimaPagina,
+      initialRoute: LoginPage.routeName,
       routes: {
+        LoginPage.routeName    : (BuildContext context) => LoginPage(),
+        RegisterPage.routeName    : (BuildContext context) => RegisterPage(),
         HomePage.routeName      : (BuildContext context) => HomePage(),
         ClientListPage.routeName  : (BuildContext context) => ClientListPage(),
         ClientFormPage.routeName  : (BuildContext context) => ClientFormPage(),
         SettingsPage.routeName  : (BuildContext context) => SettingsPage()
       },
+      theme: ThemeData(
+        primaryColor: Colors.deepPurple
+      )
     );
     // return MaterialApp(
     //   title: 'Prestamos SM',

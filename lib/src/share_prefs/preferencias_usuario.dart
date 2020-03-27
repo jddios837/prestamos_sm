@@ -48,6 +48,15 @@ class PreferenciasUsuarios {
   }
 
   // GET & SET values
+  get token {
+    return _prefs.getString('token') ?? '';
+  }
+
+  set token(String value) {
+    _prefs.setString('token', value);
+  }
+
+  // GET & SET values
   get ultimaPagina {
     return _prefs.getString('ultimaPagina') ?? HomePage.routeName;
   }
